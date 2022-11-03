@@ -221,7 +221,8 @@ h6 {
   font-size: 0.7em;
 }
 
-@media screen and (max-width: 736px) {
+/* Replaced all 735px with 945px so that workshops section does not go off screen */
+@media screen and (max-width: 945px) {
   h1 {
     font-size: 2em;
   }
@@ -1291,7 +1292,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1882,7 +1883,7 @@ button:disabled,
   opacity: 0.25;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
 
   input[type="submit"],
   input[type="reset"],
@@ -2295,7 +2296,7 @@ input[type="radio"]:focus+label:before {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   .icon.major {
     margin: 0 0 1.5em 0;
     padding: 0.35em;
@@ -2636,7 +2637,7 @@ footer.major {
   margin-top: 3em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   header.major {
     margin-bottom: 0;
   }
@@ -2794,7 +2795,7 @@ table.alt tbody tr td {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   .features {
     width: 100%;
     margin: 0 0 2em 0;
@@ -2888,7 +2889,7 @@ table.alt tbody tr td {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   .statistics {
     display: block;
     width: 20em;
@@ -3017,7 +3018,7 @@ table.alt tbody tr td {
     height: 100%;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   .spotlight .image {
     padding: 0.35em;
   }
@@ -3105,7 +3106,7 @@ table.alt tbody tr td {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   #header {
     padding: 3em 2em 0.1em 2em;
   }
@@ -3269,7 +3270,7 @@ body.is-preload #header.alt .logo {
   font-size: 0.9em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   #nav {
     display: none;
   }
@@ -3574,7 +3575,7 @@ body.is-preload #header.alt .logo {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   #main>.main {
     padding: 3em 2em 1em 2em;
   }
@@ -3668,7 +3669,7 @@ body.is-preload #header.alt .logo {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 945px) {
   #footer {
     padding: 3em 2em 1em 2em;
   }
